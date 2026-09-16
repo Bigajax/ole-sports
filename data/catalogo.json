@@ -1,0 +1,929 @@
+{
+  "categorias": [
+    {
+      "id": "c-futebol",
+      "nome": "Futebol",
+      "slug": "futebol",
+      "ordem": 1,
+      "ativo": true,
+      "capa": "/produtos/kit-jw-shots-preto-e-vermelho.webp",
+      "capaBlur": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAAAQAgCdASoKAAwAA4BaJbACdAD7iHMpRolwAP7SBtpNxta8cWHXpgiRrLTdRyJRVQ3IQ3PUpGaN66Bs+v1qWzd76Wd9a4YPFA3a+QkbcDM3qvdw450NuKstOf6PO+l9dr/UPODaIAA="
+    },
+    {
+      "id": "c-futsal",
+      "nome": "Futsal",
+      "slug": "futsal",
+      "ordem": 2,
+      "ativo": true,
+      "capa": "/produtos/uniforme-de-futsal.webp",
+      "capaBlur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAACwAQCdASoKAAwAA4BaJQBOgB5moMAAAP7qSzRsjC3QNqmwMV+/9+lCVOhO/q+lHC722K7bwCAe02etzt9G9tVQ8uKkEcw3L9vfYtwAAAA="
+    },
+    {
+      "id": "c-selecao-brasileira",
+      "nome": "Seleção brasileira",
+      "slug": "selecao-brasileira",
+      "ordem": 3,
+      "ativo": true,
+      "capa": "/produtos/camisa-do-brasil-personalizada.webp",
+      "capaBlur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADwAQCdASoKAAwAA4BaJbACdACvon8haAAA/u+QPIJn2d+z0EPOj7l2IdWi5rx94W3zw6XBDq2odR+US6A9s/1T/H+j4+7m7RHVzGTcYHW+QZ8zMElzIAAA"
+    },
+    {
+      "id": "c-manga-longa-e-pesca",
+      "nome": "Manga longa e pesca",
+      "slug": "manga-longa-e-pesca",
+      "ordem": 4,
+      "ativo": true,
+      "capa": "/produtos/jaqueta-de-pesca-brasil.webp",
+      "capaBlur": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAADwAQCdASoKAAwAA4BaJbACdAELPB2O1wAA/b1NAjPySDFzmTcbLTVtY9gVxo7gIVHwPao/TYyeLYMN6Jq3Wbd7ltVcNmHFf1eTIUfMN/sGTUob+6ul5bomQHngAA=="
+    },
+    {
+      "id": "c-agasalhos",
+      "nome": "Agasalhos",
+      "slug": "agasalhos",
+      "ordem": 5,
+      "ativo": true,
+      "capa": "/produtos/agasalho-personalizado.webp",
+      "capaBlur": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADwAQCdASoKAAwAA4BaJZQAAvkFKVOtyAAA+p9YD/6L9pI6A8T3HdMxlVVM/9IgQvrUzmYA2L0c6wX1YW0VMn7YRMImprgvd843vysiDKtvzZlMyXRHyCBAAAA="
+    },
+    {
+      "id": "c-quadra",
+      "nome": "Quadra",
+      "slug": "quadra",
+      "ordem": 6,
+      "ativo": true,
+      "capa": "/produtos/uniforme-de-handebol.webp",
+      "capaBlur": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAAAQAgCdASoKAAwAA4BaJZACdADdrSF3Yl5AAP7OAZ4W3xOA3yFyTJY8805TCiIEldtmy4r2MTiKMWebsOURkKHmaeXcF0xBUyOpxQLHmMYilbXC5JWAO+71OgPsAEa+zCgAAA=="
+    },
+    {
+      "id": "c-casual",
+      "nome": "Casual",
+      "slug": "casual",
+      "ordem": 7,
+      "ativo": true,
+      "capa": "/produtos/camisa-casual-ole.webp",
+      "capaBlur": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAQAgCdASoKAAwAA4BaJYwCdAERH50c5mGAAP70oOcPJfGJUTW/bEntJl1mKr6eM3pR6Glv1N+EB8q3EH26cF4YpPYkHA6+X+Hl0BdLBDiWMLP3GZvAAA=="
+    }
+  ],
+  "produtos": [
+    {
+      "id": "p-001",
+      "codigo": "OS-0001",
+      "nome": "Uniforme Último Zagueiro FC",
+      "slug": "uniforme-ultimo-zagueiro-fc",
+      "descricao": "Uniforme preto do Último Zagueiro FC, de Santos, em campo com o time: camisa com patrocínios e número, calção e meião.",
+      "marca": null,
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "futebol",
+      "tamanhos": [],
+      "cores": [
+        "preto"
+      ],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 1001,
+      "imagens": [
+        {
+          "url": "/produtos/uniforme-ultimo-zagueiro-fc.webp",
+          "largura": 1080,
+          "altura": 1350,
+          "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADQAQCdASoKAAwAA4BaJQBOgCHh7m9EAAD+8BaG5EG4iHTO8AczmC3KgsFEyBQFPk2uUW8uiqLkmX1LQASxioxAAAA=",
+          "alt": "Uniforme Último Zagueiro FC",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-002",
+      "codigo": "OS-0002",
+      "nome": "Kit JW Shots preto e vermelho",
+      "slug": "kit-jw-shots-preto-e-vermelho",
+      "descricao": "Uniforme do Coração Alvorada em duas versões, preta e vermelha, com a faixa diagonal, o número 95 em gótico e os patrocínios. Fotos do uniforme pronto.",
+      "marca": null,
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "futebol",
+      "tamanhos": [],
+      "cores": [
+        "preto e vermelho"
+      ],
+      "destaque": true,
+      "ativo": true,
+      "ordem": 1,
+      "imagens": [
+        {
+          "url": "/produtos/kit-jw-shots-preto-e-vermelho.webp",
+          "largura": 1080,
+          "altura": 1350,
+          "blur": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAAAQAgCdASoKAAwAA4BaJbACdAD7iHMpRolwAP7SBtpNxta8cWHXpgiRrLTdRyJRVQ3IQ3PUpGaN66Bs+v1qWzd76Wd9a4YPFA3a+QkbcDM3qvdw450NuKstOf6PO+l9dr/UPODaIAA=",
+          "alt": "Kit JW Shots preto e vermelho",
+          "ordem": 0
+        },
+        {
+          "url": "/produtos/kit-jw-shots-preto-e-vermelho-2.webp",
+          "largura": 1080,
+          "altura": 1350,
+          "blur": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAADwAQCdASoKAAwAA4BaJbACdH8AFZ4v6AAA/sBLZQvKQ1lkM1xPq/WlCPcg0HfCdesuC4t2uKd7J8fclBW5TkB+NrCYqu+sMTF3321HccPNnRrQVWetCfvadTdZ3Gf4ON1naUXakAAAAA==",
+          "alt": "Kit JW Shots preto e vermelho",
+          "ordem": 1
+        },
+        {
+          "url": "/produtos/kit-jw-shots-preto-e-vermelho-3.webp",
+          "largura": 1080,
+          "altura": 1350,
+          "blur": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAAAwAgCdASoKAAwAA4BaJbACdAYt9zV1yJwhAAD+rNIS91gr/3MdBafz7K1xDVfk6Lpn9hLMLBrDMHi+q5HK70BoVuTB6akNclcggVRjtDIgf9hBUK/n3WBxnff4v/c5JP92rTL1uwAAAA==",
+          "alt": "Kit JW Shots preto e vermelho",
+          "ordem": 2
+        },
+        {
+          "url": "/produtos/kit-jw-shots-preto-e-vermelho-4.webp",
+          "largura": 1080,
+          "altura": 1350,
+          "blur": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADwAQCdASoKAAwAA4BaJbACdADRCSHJvAAA/r5n3ph/AIOAHYaNstFlTOGFKljrHMHvnU3GjIWKzakbrhYC3/z3Ukg87/st5q1rE+2+Ds+KAAAA",
+          "alt": "Kit JW Shots preto e vermelho",
+          "ordem": 3
+        }
+      ]
+    },
+    {
+      "id": "p-003",
+      "codigo": "OS-0003",
+      "nome": "Camisa CBM azul e amarela",
+      "slug": "camisa-cbm-azul-e-amarela",
+      "descricao": "Camisa de futebol metade amarela, metade azul, com a arte do felino rasgando o tecido e o escudo do patrocinador.",
+      "marca": null,
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "futebol",
+      "tamanhos": [],
+      "cores": [
+        "azul e amarelo"
+      ],
+      "destaque": true,
+      "ativo": true,
+      "ordem": 5,
+      "imagens": [
+        {
+          "url": "/produtos/camisa-cbm-azul-e-amarela.webp",
+          "largura": 1080,
+          "altura": 1350,
+          "blur": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAABQAgCdASoKAAwAA4BaJbACdAYtzkxoVQ3G5wAA/u8Zfny1ks8KDVfguesrxWfBbgkfbEvLhK7B+osJuDVEINcTt6fSz9iEriPdE/jLHJ6Ryxt69NWr3EBGkzl2CEWWG78nGaBqw1gAAA==",
+          "alt": "Camisa CBM azul e amarela",
+          "ordem": 0
+        },
+        {
+          "url": "/produtos/camisa-cbm-azul-e-amarela-2.webp",
+          "largura": 1080,
+          "altura": 1350,
+          "blur": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAAAQAgCdASoKAAwAA4BaJaACdAD0uSWzX7XgAP7tp6W/76bFEtRt2nPmLCBrjc3LAS6M4hpCepxia3yt/wBMlbzFbChC624HQUOmY0BMfDoSSbX1DO44UUVQIz/F+wrBKyAdVANY4AA=",
+          "alt": "Camisa CBM azul e amarela",
+          "ordem": 1
+        }
+      ]
+    },
+    {
+      "id": "p-004",
+      "codigo": "OS-0004",
+      "nome": "Kits verde e laranja",
+      "slug": "kits-verde-e-laranja",
+      "descricao": "Dois uniformes completos do mesmo time, verde com branco e laranja com preto, com a onda sublimada de lado a lado.",
+      "marca": null,
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "futebol",
+      "tamanhos": [],
+      "cores": [
+        "verde e laranja"
+      ],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 1016,
+      "imagens": [
+        {
+          "url": "/produtos/kits-verde-e-laranja.webp",
+          "largura": 1080,
+          "altura": 1350,
+          "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADQAQCdASoKAAwAA4BaJZwAAtx/rJ/Z4AD+9vpl0rIv6FcxivEQUBzpnkhC05jm1Bfaj4ZqCRZDOKFx/dYgzlYa/gFMAAAA",
+          "alt": "Kits verde e laranja",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-005",
+      "codigo": "OS-0005",
+      "nome": "Camisas São Mateus do Maranhão",
+      "slug": "camisas-sao-mateus-do-maranhao",
+      "descricao": "Três camisas do mesmo clube, branca, amarela e vermelha, com faixa no peito, escudo e patrocínios. Enviadas para o Maranhão.",
+      "marca": null,
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "futebol",
+      "tamanhos": [],
+      "cores": [
+        "branco, amarelo e vermelho"
+      ],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 1017,
+      "imagens": [
+        {
+          "url": "/produtos/camisas-sao-mateus-do-maranhao.webp",
+          "largura": 1080,
+          "altura": 1350,
+          "blur": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAAAwAgCdASoKAAwAA4BaJaACdAYuRaABf9ZWAAD+9uL9aVRrzhjA7Xdn7eetAY8bWdQx/spnNrr/nPsItn3tojm3vvb0/fN5v9OhUZ/VNgBzAz04PmOdXnblKz/EAAAA",
+          "alt": "Camisas São Mateus do Maranhão",
+          "ordem": 0
+        },
+        {
+          "url": "/produtos/camisas-sao-mateus-do-maranhao-2.webp",
+          "largura": 1080,
+          "altura": 1350,
+          "blur": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAADQAQCdASoKAAwAA4BaJbACdAD0kvTWYAD+9MAjiQuaoa5qXSQBPyNvk9wduLbFCOjG9TG69WXC6/EzbKxFo2+Fh8BY3yIqpl4eHlNHv7fH36Tb61pTlU+P8IfNa2FnAAA=",
+          "alt": "Camisas São Mateus do Maranhão",
+          "ordem": 1
+        },
+        {
+          "url": "/produtos/camisas-sao-mateus-do-maranhao-3.webp",
+          "largura": 1080,
+          "altura": 1350,
+          "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAAAQAgCdASoKAAwAA4BaJbACdAEJZqAYP7MAAP7vZUqef1iZ8rAz/1+IYYTQND8GK7i2JYblfo9TeWw1SI+FMLg9+3i+B98JiMM9cXZWEfl4K/wx3O4UAAAA",
+          "alt": "Camisas São Mateus do Maranhão",
+          "ordem": 2
+        }
+      ]
+    },
+    {
+      "id": "p-006",
+      "codigo": "OS-0006",
+      "nome": "Camisa do Brasil personalizada",
+      "slug": "camisa-do-brasil-personalizada",
+      "descricao": "A camisa da seleção do seu jeito: amarela ou verde, com o seu nome e o seu número nas costas. Para torcer, para o bolão e para dar de presente.",
+      "marca": null,
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "selecao-brasileira",
+      "tamanhos": [],
+      "cores": [
+        "amarelo e verde"
+      ],
+      "destaque": true,
+      "ativo": true,
+      "ordem": 2,
+      "imagens": [
+        {
+          "url": "/produtos/camisa-do-brasil-personalizada.webp",
+          "largura": 1080,
+          "altura": 1350,
+          "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADwAQCdASoKAAwAA4BaJbACdACvon8haAAA/u+QPIJn2d+z0EPOj7l2IdWi5rx94W3zw6XBDq2odR+US6A9s/1T/H+j4+7m7RHVzGTcYHW+QZ8zMElzIAAA",
+          "alt": "Camisa do Brasil personalizada",
+          "ordem": 0
+        },
+        {
+          "url": "/produtos/camisa-do-brasil-personalizada-2.webp",
+          "largura": 1080,
+          "altura": 1350,
+          "blur": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAAAQAgCdASoKAAwAA4BaJbACdAD0TROXhLoAAP5hb0ebPUaQnLFPegib5D4FtjurELf8QqpGLx/vN7d1Cv1r3Kz54HovCy8G5a7DowJFMZrgOZHrDJ78s0Myj3Qag8/oaiPoAAAA",
+          "alt": "Camisa do Brasil personalizada",
+          "ordem": 1
+        },
+        {
+          "url": "/produtos/camisa-do-brasil-personalizada-3.webp",
+          "largura": 1080,
+          "altura": 1440,
+          "blur": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAQCdASoJAAwAA4BaJYwCdAD5hcFeKQAA/uutRpHIoq6GtEssM30IvNZbDyC64Pr2HNkpEKVeld58SatjPmrazBJJMo3zz0Hml8WI5OeUIVIUAAA=",
+          "alt": "Camisa do Brasil personalizada",
+          "ordem": 2
+        },
+        {
+          "url": "/produtos/camisa-do-brasil-personalizada-4.webp",
+          "largura": 844,
+          "altura": 1500,
+          "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAABQAgCdASoHAAwAA4BaJZgCdH8AGN3JsGBKlAAA9rFykl1O8aPQ1LbbxC9LZSUNKZzy6Z4W9hzaBLvRhXrf5tTsst8a7J8qjjRmfhcw21oAAA==",
+          "alt": "Camisa do Brasil personalizada",
+          "ordem": 3
+        }
+      ]
+    },
+    {
+      "id": "p-007",
+      "codigo": "OS-0007",
+      "nome": "Agasalho personalizado",
+      "slug": "agasalho-personalizado",
+      "descricao": "Conjunto de agasalho preto com o logo do time ou da empresa bordado e sublimado: jaqueta e calça, para o banco e para o dia a dia.",
+      "marca": null,
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "agasalhos",
+      "tamanhos": [],
+      "cores": [
+        "preto"
+      ],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 1021,
+      "imagens": [
+        {
+          "url": "/produtos/agasalho-personalizado.webp",
+          "largura": 1080,
+          "altura": 1350,
+          "blur": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADwAQCdASoKAAwAA4BaJZQAAvkFKVOtyAAA+p9YD/6L9pI6A8T3HdMxlVVM/9IgQvrUzmYA2L0c6wX1YW0VMn7YRMImprgvd843vysiDKtvzZlMyXRHyCBAAAA=",
+          "alt": "Agasalho personalizado",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-008",
+      "codigo": "OS-0008",
+      "nome": "Kit Dhuo preto e branco",
+      "slug": "kit-dhuo-preto-e-branco",
+      "descricao": "Uniforme completo de futebol em duas versões, preto com dourado e branco com verde: camisa, calção e o número nas costas. Sublimação digital com os patrocínios do time.",
+      "marca": null,
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "futebol",
+      "tamanhos": [],
+      "cores": [
+        "preto e branco"
+      ],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 1024,
+      "imagens": [
+        {
+          "url": "/produtos/kit-dhuo-preto-e-branco.webp",
+          "largura": 1080,
+          "altura": 1350,
+          "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAQAgCdASoKAAwAA4BaJbACdAELZA4mB7pAAP7vjjjn8O+FsbtHwO+mRFrf9P9r07vRWlA2usFwZDTAjoxBG1DRdv+3vooN75aDvypwAAA=",
+          "alt": "Kit Dhuo preto e branco",
+          "ordem": 0
+        },
+        {
+          "url": "/produtos/kit-dhuo-preto-e-branco-2.webp",
+          "largura": 1080,
+          "altura": 1350,
+          "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAAAQAgCdASoKAAwAA4BaJbACdAELYOAnAaogAP2+vRvW8vSk54CbOdhHd02NKU3IDUqpQ3TuKu5R6BDatJ8UU5y//BnH7V/hcUNm//cv+xp2q+Thqa8CAAAA",
+          "alt": "Kit Dhuo preto e branco",
+          "ordem": 1
+        }
+      ]
+    },
+    {
+      "id": "p-009",
+      "codigo": "OS-0009",
+      "nome": "Uniforme de handebol",
+      "slug": "uniforme-de-handebol",
+      "descricao": "Camisa de handebol vermelha com detalhes pretos e o número nas costas, calção preto. Também para vôlei e basquete.",
+      "marca": null,
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "quadra",
+      "tamanhos": [],
+      "cores": [
+        "vermelho e preto"
+      ],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 1026,
+      "imagens": [
+        {
+          "url": "/produtos/uniforme-de-handebol.webp",
+          "largura": 1080,
+          "altura": 1350,
+          "blur": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAAAQAgCdASoKAAwAA4BaJZACdADdrSF3Yl5AAP7OAZ4W3xOA3yFyTJY8805TCiIEldtmy4r2MTiKMWebsOURkKHmaeXcF0xBUyOpxQLHmMYilbXC5JWAO+71OgPsAEa+zCgAAA==",
+          "alt": "Uniforme de handebol",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-010",
+      "codigo": "OS-0010",
+      "nome": "Camisa de pesca Brasil",
+      "slug": "camisa-de-pesca-brasil",
+      "descricao": "Camisa de pesca manga longa preta com a bandeira do Brasil nas costas, para adulto e criança. Sublimação que não desbota no sol.",
+      "marca": null,
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "manga-longa-e-pesca",
+      "tamanhos": [],
+      "cores": [
+        "preto e verde"
+      ],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 1028,
+      "imagens": [
+        {
+          "url": "/produtos/camisa-de-pesca-brasil.webp",
+          "largura": 1080,
+          "altura": 1350,
+          "blur": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAQAgCdASoKAAwAA4BaJbACdAYsZj7AZCAAAPwz+IlfW5ZiayqECrwBy6TZ5N05cgQejrSC45chiTNExSMgqmUwyEtbCjXUUqAiSCEaT3679XGH5AA=",
+          "alt": "Camisa de pesca Brasil",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-011",
+      "codigo": "OS-0011",
+      "nome": "Kit azul Big Lanches",
+      "slug": "kit-azul-big-lanches",
+      "descricao": "Uniforme de futebol azul royal com mangas brancas, calção e meião: o kit completo do time, com escudo e patrocínio sublimados.",
+      "marca": null,
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "futebol",
+      "tamanhos": [],
+      "cores": [
+        "azul e branco"
+      ],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 1031,
+      "imagens": [
+        {
+          "url": "/produtos/kit-azul-big-lanches.webp",
+          "largura": 1080,
+          "altura": 1350,
+          "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAQCdASoKAAwAA4BaJYwC7AELXlRMAAD+99ymGg7P8KqaYoaDw4mF3gIyK6Z0/c5kDU6gIOaHq9cjpv6Oet+dUIQAAA==",
+          "alt": "Kit azul Big Lanches",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-012",
+      "codigo": "OS-0012",
+      "nome": "Kit preto U.C. La Estrella",
+      "slug": "kit-preto-u-c-la-estrella",
+      "descricao": "Uniforme de futebol preto com detalhes azul-claro, nome e número nas costas, calção e meião. Padrão profissional.",
+      "marca": null,
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "futebol",
+      "tamanhos": [],
+      "cores": [
+        "preto"
+      ],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 1032,
+      "imagens": [
+        {
+          "url": "/produtos/kit-preto-u-c-la-estrella.webp",
+          "largura": 1080,
+          "altura": 1350,
+          "blur": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADwAQCdASoKAAwAA4BaJYwCdAEQFT6foAAA/uhaqadhvG1xvmwsPth6fW8w4Z/z1Fg8Hyulagmq4pikAAA=",
+          "alt": "Kit preto U.C. La Estrella",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-013",
+      "codigo": "OS-0013",
+      "nome": "Camisa preta com raios azuis",
+      "slug": "camisa-preta-com-raios-azuis",
+      "descricao": "Camisa de futebol preta com estampa de raios azuis e a coruja sublimada, número 10 em azul nas costas.",
+      "marca": null,
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "futebol",
+      "tamanhos": [],
+      "cores": [
+        "preto e azul"
+      ],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 1033,
+      "imagens": [
+        {
+          "url": "/produtos/camisa-preta-com-raios-azuis.webp",
+          "largura": 1080,
+          "altura": 1350,
+          "blur": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAADwAQCdASoKAAwAA4BaJZQAD4uwNk81xMAA/vVYcdHXbJ3oTNeUffmR33P1GgZDJeEQcA+/UK6k6E/kiNCA7a/VWtvWc6EMJW4I+N6v5gzfjfIgjjfSAXF/ASH0QAAA",
+          "alt": "Camisa preta com raios azuis",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-014",
+      "codigo": "OS-0014",
+      "nome": "Kit preto e vermelho",
+      "slug": "kit-preto-e-vermelho",
+      "descricao": "Uniforme de futebol preto com faixas vermelhas e brancas, calção preto e meião. Frente com escudo, costas com o número.",
+      "marca": null,
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "futebol",
+      "tamanhos": [],
+      "cores": [
+        "preto e vermelho"
+      ],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 1034,
+      "imagens": [
+        {
+          "url": "/produtos/kit-preto-e-vermelho.webp",
+          "largura": 1080,
+          "altura": 1350,
+          "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAAAwAgCdASoKAAwAA4BaJbACdLoAAv1XEn1YQAD9vrzFnnpOMnYicO9sT1FBXlno6IDDdgEK6fgLa+6pdlWq/8S1iNHv1t7LnXxAAAAA",
+          "alt": "Kit preto e vermelho",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-015",
+      "codigo": "OS-0015",
+      "nome": "Camisa leão dourado Saga",
+      "slug": "camisa-leao-dourado-saga",
+      "descricao": "Camisa de futebol preta com folhagens e o leão em dourado, nome e número 10 nas costas. Sublimação de alta definição.",
+      "marca": null,
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "futebol",
+      "tamanhos": [],
+      "cores": [
+        "preto e dourado"
+      ],
+      "destaque": true,
+      "ativo": true,
+      "ordem": 3,
+      "imagens": [
+        {
+          "url": "/produtos/camisa-leao-dourado-saga.webp",
+          "largura": 1080,
+          "altura": 1350,
+          "blur": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAQAgCdASoKAAwAA4BaJYwCdAELY4pPHTXAAP7XcFv3MZVUg6WQqJhqQ6gzyUOS/+cqqPatpWP7q83FEoQHoCyVu0Z7OV7ipz83G40BpmmC/AAA",
+          "alt": "Camisa leão dourado Saga",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-016",
+      "codigo": "OS-0016",
+      "nome": "Camisas amarela e azul CompuSoftware",
+      "slug": "camisas-amarela-e-azul-compusoftware",
+      "descricao": "Camisas de futebol em duas cores, amarela e azul, com estampa geométrica e os patrocínios sublimados.",
+      "marca": null,
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "futebol",
+      "tamanhos": [],
+      "cores": [
+        "amarelo e azul"
+      ],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 1040,
+      "imagens": [
+        {
+          "url": "/produtos/camisas-amarela-e-azul-compusoftware.webp",
+          "largura": 1080,
+          "altura": 1350,
+          "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAAAQAgCdASoKAAwAA4BaJQBOj+AC+GD8tD0AAP71WbIGV5WLwked0UDik9T+G0SLQASOY8yR8aVMuLb2cLgDqXndNkzK+I/8rDM0XeYeMVkcKXwaniGQ+AAA",
+          "alt": "Camisas amarela e azul CompuSoftware",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-017",
+      "codigo": "OS-0017",
+      "nome": "Camisa casual Olé",
+      "slug": "camisa-casual-ole",
+      "descricao": "Camisa casual preta com riscos vermelhos e brancos e o logo da Olé no peito, para adulto e criança. Também polo, regata e camiseta para empresas.",
+      "marca": null,
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "casual",
+      "tamanhos": [],
+      "cores": [
+        "preto"
+      ],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 1042,
+      "imagens": [
+        {
+          "url": "/produtos/camisa-casual-ole.webp",
+          "largura": 1080,
+          "altura": 1350,
+          "blur": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAQAgCdASoKAAwAA4BaJYwCdAERH50c5mGAAP70oOcPJfGJUTW/bEntJl1mKr6eM3pR6Glv1N+EB8q3EH26cF4YpPYkHA6+X+Hl0BdLBDiWMLP3GZvAAA==",
+          "alt": "Camisa casual Olé",
+          "ordem": 0
+        },
+        {
+          "url": "/produtos/camisa-casual-ole-2.webp",
+          "largura": 1080,
+          "altura": 1350,
+          "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADQAQCdASoKAAwAA4BaJQBOgBk7wX7XgAD+wdTH+Nn8yXz16M/6Ji+DhuQV3AYbYiZ8o6CeYMR02qcmsMGWzbU+gmXFfn9yhXxGURrLpg3CrqUUneNvAAAA",
+          "alt": "Camisa casual Olé",
+          "ordem": 1
+        }
+      ]
+    },
+    {
+      "id": "p-018",
+      "codigo": "OS-0018",
+      "nome": "Camisas Volvo verde, rosa e azul",
+      "slug": "camisas-volvo-verde-rosa-e-azul",
+      "descricao": "Camisa de futebol com estampa de escamas em três cores, verde, rosa e azul, com escudo e patrocínio no peito.",
+      "marca": null,
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "futebol",
+      "tamanhos": [],
+      "cores": [
+        "verde, rosa e azul"
+      ],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 1043,
+      "imagens": [
+        {
+          "url": "/produtos/camisas-volvo-verde-rosa-e-azul.webp",
+          "largura": 1080,
+          "altura": 1350,
+          "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAAAQAgCdASoKAAwAA4BaJZQC7AD1e5ZhAD8AAP7tGDWj1voqfsh88h4zL6lVbpNRmQDc2Ei2edFpSIN52WXTi0LCuMQAAA==",
+          "alt": "Camisas Volvo verde, rosa e azul",
+          "ordem": 0
+        },
+        {
+          "url": "/produtos/camisas-volvo-verde-rosa-e-azul-2.webp",
+          "largura": 1080,
+          "altura": 1350,
+          "blur": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADwAQCdASoKAAwAA4BaJaAAAxec970ShAAA/upDQ1h6oqF1WtUUDTBw3oAvGPyjb1O5DSggPOXi+GcHgdrmMxnOF/hkuIcJ0VjFzApJqm/vAAAA",
+          "alt": "Camisas Volvo verde, rosa e azul",
+          "ordem": 1
+        },
+        {
+          "url": "/produtos/camisas-volvo-verde-rosa-e-azul-3.webp",
+          "largura": 1080,
+          "altura": 1350,
+          "blur": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAwAgCdASoKAAwAA4BaJbACdAEfhxrzSxuBUAD+98bADX4QGSBE/RMDKaS/zqhi4+WU3OP8XwZunV15NGTvu7oBem0TWuCrhqu8l3BOvgp5c4ChkbSEAA==",
+          "alt": "Camisas Volvo verde, rosa e azul",
+          "ordem": 2
+        }
+      ]
+    },
+    {
+      "id": "p-019",
+      "codigo": "OS-0019",
+      "nome": "Uniforme de futsal",
+      "slug": "uniforme-de-futsal",
+      "descricao": "Uniforme de futsal preto com ombros brancos e detalhes vermelhos, calção e meião, para a quadra.",
+      "marca": null,
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "futsal",
+      "tamanhos": [],
+      "cores": [
+        "preto e branco"
+      ],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 1045,
+      "imagens": [
+        {
+          "url": "/produtos/uniforme-de-futsal.webp",
+          "largura": 1080,
+          "altura": 1350,
+          "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAACwAQCdASoKAAwAA4BaJQBOgB5moMAAAP7qSzRsjC3QNqmwMV+/9+lCVOhO/q+lHC722K7bwCAe02etzt9G9tVQ8uKkEcw3L9vfYtwAAAA=",
+          "alt": "Uniforme de futsal",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-020",
+      "codigo": "OS-0020",
+      "nome": "Jaqueta de pesca Brasil",
+      "slug": "jaqueta-de-pesca-brasil",
+      "descricao": "Jaqueta de pesca com zíper, preta com a bandeira do Brasil em pincelada e o nome nas costas. Tecido com proteção para o sol.",
+      "marca": null,
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "manga-longa-e-pesca",
+      "tamanhos": [],
+      "cores": [
+        "preto e verde"
+      ],
+      "destaque": true,
+      "ativo": true,
+      "ordem": 6,
+      "imagens": [
+        {
+          "url": "/produtos/jaqueta-de-pesca-brasil.webp",
+          "largura": 1080,
+          "altura": 1350,
+          "blur": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAADwAQCdASoKAAwAA4BaJbACdAELPB2O1wAA/b1NAjPySDFzmTcbLTVtY9gVxo7gIVHwPao/TYyeLYMN6Jq3Wbd7ltVcNmHFf1eTIUfMN/sGTUob+6ul5bomQHngAA==",
+          "alt": "Jaqueta de pesca Brasil",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-021",
+      "codigo": "OS-0021",
+      "nome": "Kits vermelhos BCM Amigos",
+      "slug": "kits-vermelhos-bcm-amigos",
+      "descricao": "Quatro versões do uniforme do BCM Amigos F.C.: preta com a arte do dragão, vermelha com número e a frase do time nas costas.",
+      "marca": null,
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "futebol",
+      "tamanhos": [],
+      "cores": [
+        "vermelho e preto"
+      ],
+      "destaque": true,
+      "ativo": true,
+      "ordem": 4,
+      "imagens": [
+        {
+          "url": "/produtos/kits-vermelhos-bcm-amigos.webp",
+          "largura": 1080,
+          "altura": 1350,
+          "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAAAQAgCdASoKAAwAA4BaJZQAAxYTrorT8w3gAP72+kl7Yqd6RyKIU4t/q8qdC3Lre0wdramFqA3DEIG/EZOXhuetBjeuBKCCfW/hYqxKjA9gAA==",
+          "alt": "Kits vermelhos BCM Amigos",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-022",
+      "codigo": "OS-0022",
+      "nome": "Camisa vermelha e preta Olé",
+      "slug": "camisa-vermelha-e-preta-ole",
+      "descricao": "Camisa de futebol vermelha com riscos pretos e brancos, gola preta: o modelo da casa.",
+      "marca": null,
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "futebol",
+      "tamanhos": [],
+      "cores": [
+        "vermelho e preto"
+      ],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 1048,
+      "imagens": [
+        {
+          "url": "/produtos/camisa-vermelha-e-preta-ole.webp",
+          "largura": 1080,
+          "altura": 1350,
+          "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAAAwAgCdASoKAAwAA4BaJbACdLoAAx7jCriDgADN6Om54RJnx2hrYitkAbEdmdjQRiE+w5MfdzTdIb1ywT8Mh/8b1L8svoH6CnLz/TaJ5gAAAA==",
+          "alt": "Camisa vermelha e preta Olé",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-023",
+      "codigo": "OS-0023",
+      "nome": "Manga longa Iepê Fight Team",
+      "slug": "manga-longa-iepe-fight-team",
+      "descricao": "Camisa manga longa preta com mangas brancas, a águia da equipe no peito e nas costas e o nome sublimado.",
+      "marca": null,
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "manga-longa-e-pesca",
+      "tamanhos": [],
+      "cores": [
+        "preto e branco"
+      ],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 1050,
+      "imagens": [
+        {
+          "url": "/produtos/manga-longa-iepe-fight-team.webp",
+          "largura": 1080,
+          "altura": 1350,
+          "blur": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAQAgCdASoKAAwAA4BaJZwAAtzOqcqiziAAAP70C7uJFdwtaqayz1Xy28ogh7nYLQbK/nxEvBCN7oiAn1ii3pKG1wTZjg+LawoFbplukQH04HsAAAA=",
+          "alt": "Manga longa Iepê Fight Team",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-024",
+      "codigo": "OS-0024",
+      "nome": "Kit amarelo Teixeira",
+      "slug": "kit-amarelo-teixeira",
+      "descricao": "Uniforme de futebol amarelo com gola e detalhes azul-marinho, nome e número nas costas e os patrocínios de Araçatuba.",
+      "marca": null,
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "futebol",
+      "tamanhos": [],
+      "cores": [
+        "amarelo e azul"
+      ],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 1051,
+      "imagens": [
+        {
+          "url": "/produtos/kit-amarelo-teixeira.webp",
+          "largura": 1080,
+          "altura": 1350,
+          "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAQCdASoKAAwAA4BaJYgCdAEQBxq9OmAA/uHQkCVFqJ5bDOLKHpdz45MRzYq2nc5oZQa9I+fyOIU5bHnYoAAKl/wAAA==",
+          "alt": "Kit amarelo Teixeira",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-025",
+      "codigo": "OS-0025",
+      "nome": "Manga longa Bullfighter",
+      "slug": "manga-longa-bullfighter",
+      "descricao": "Camisa manga longa preta com chamas sublimadas na barra e nas mangas, bermuda combinando e o brasão personalizado.",
+      "marca": null,
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "manga-longa-e-pesca",
+      "tamanhos": [],
+      "cores": [
+        "preto"
+      ],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 1052,
+      "imagens": [
+        {
+          "url": "/produtos/manga-longa-bullfighter.webp",
+          "largura": 1080,
+          "altura": 1350,
+          "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAAAQAgCdASoKAAwAA4BaJZQCw7ELZWXcq/6AAP70w7F5/AZC0NKCdZ/kUjOFWEK3U4OQd5KTtLkDpPpfyP0j+JHMYb2shgAA",
+          "alt": "Manga longa Bullfighter",
+          "ordem": 0
+        }
+      ]
+    }
+  ],
+  "hero": [
+    {
+      "url": "/produtos/kit-jw-shots-preto-e-vermelho.webp",
+      "largura": 1080,
+      "altura": 1350,
+      "blur": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAAAQAgCdASoKAAwAA4BaJbACdAD7iHMpRolwAP7SBtpNxta8cWHXpgiRrLTdRyJRVQ3IQ3PUpGaN66Bs+v1qWzd76Wd9a4YPFA3a+QkbcDM3qvdw450NuKstOf6PO+l9dr/UPODaIAA=",
+      "alt": "Kit JW Shots preto e vermelho",
+      "ordem": 0,
+      "slug": "kit-jw-shots-preto-e-vermelho"
+    },
+    {
+      "url": "/produtos/camisa-do-brasil-personalizada.webp",
+      "largura": 1080,
+      "altura": 1350,
+      "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADwAQCdASoKAAwAA4BaJbACdACvon8haAAA/u+QPIJn2d+z0EPOj7l2IdWi5rx94W3zw6XBDq2odR+US6A9s/1T/H+j4+7m7RHVzGTcYHW+QZ8zMElzIAAA",
+      "alt": "Camisa do Brasil personalizada",
+      "ordem": 0,
+      "slug": "camisa-do-brasil-personalizada"
+    },
+    {
+      "url": "/produtos/camisa-leao-dourado-saga.webp",
+      "largura": 1080,
+      "altura": 1350,
+      "blur": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAQAgCdASoKAAwAA4BaJYwCdAELY4pPHTXAAP7XcFv3MZVUg6WQqJhqQ6gzyUOS/+cqqPatpWP7q83FEoQHoCyVu0Z7OV7ipz83G40BpmmC/AAA",
+      "alt": "Camisa leão dourado Saga",
+      "ordem": 0,
+      "slug": "camisa-leao-dourado-saga"
+    },
+    {
+      "url": "/produtos/kits-vermelhos-bcm-amigos.webp",
+      "largura": 1080,
+      "altura": 1350,
+      "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAAAQAgCdASoKAAwAA4BaJZQAAxYTrorT8w3gAP72+kl7Yqd6RyKIU4t/q8qdC3Lre0wdramFqA3DEIG/EZOXhuetBjeuBKCCfW/hYqxKjA9gAA==",
+      "alt": "Kits vermelhos BCM Amigos",
+      "ordem": 0,
+      "slug": "kits-vermelhos-bcm-amigos"
+    },
+    {
+      "url": "/produtos/camisa-cbm-azul-e-amarela.webp",
+      "largura": 1080,
+      "altura": 1350,
+      "blur": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAABQAgCdASoKAAwAA4BaJbACdAYtzkxoVQ3G5wAA/u8Zfny1ks8KDVfguesrxWfBbgkfbEvLhK7B+osJuDVEINcTt6fSz9iEriPdE/jLHJ6Ryxt69NWr3EBGkzl2CEWWG78nGaBqw1gAAA==",
+      "alt": "Camisa CBM azul e amarela",
+      "ordem": 0,
+      "slug": "camisa-cbm-azul-e-amarela"
+    },
+    {
+      "url": "/produtos/jaqueta-de-pesca-brasil.webp",
+      "largura": 1080,
+      "altura": 1350,
+      "blur": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAADwAQCdASoKAAwAA4BaJbACdAELPB2O1wAA/b1NAjPySDFzmTcbLTVtY9gVxo7gIVHwPao/TYyeLYMN6Jq3Wbd7ltVcNmHFf1eTIUfMN/sGTUob+6ul5bomQHngAA==",
+      "alt": "Jaqueta de pesca Brasil",
+      "ordem": 0,
+      "slug": "jaqueta-de-pesca-brasil"
+    }
+  ]
+}
